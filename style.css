@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #b1ec0c;
+    background-color: #e9ec13;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,22 +19,22 @@ body {
 .container-info, .container-skills, .container-edu, .container-work {
     margin: 20px 0;
     padding: 20px;
-    background-color: #b1ec0c;
+    background-color: #e9ec13;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #072dd4;
+    box-shadow: 0 4px 8px rgba(250, 5, 5, 0.959);
 }
 
 h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: #072dd4;
+    color: #2d278b;
     margin-bottom: 20px;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #072dd4;
-    border-bottom: 2px solid #4caf50;
+    color: #2d278b;
+    border-bottom: 2px solid #209c24;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -43,7 +43,7 @@ label {
     display: block;
     font-weight: bold;
     margin-top: 15px;
-    color: #072dd4;
+    color: #333;
     font-size: 1rem;
 }
 
@@ -52,7 +52,7 @@ input[type="text"], input[type="email"], input[type="number"], input[type="date"
     padding: 12px;
     margin-top: 5px;
     margin-bottom: 20px;
-    border: 1px solid #a71616;
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 1rem;
@@ -72,8 +72,8 @@ div input[type="radio"] + label {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #072dd4;
-    color: rgb(146, 54, 54);
+    background-color: #e9ec13;
+    color: white;
     font-size: 1.2rem;
     border: none;
     border-radius: 4px;
@@ -83,16 +83,16 @@ button {
 }
 
 button:hover {
-    background-color: #072dd4;
+    background-color: #e9ec13;
 }
 
 .toggle-button {
     width: 100%;
     padding: 10px;
-    background-color: #072dd4;
-    color: #b1ec0c;
+    background-color: #ffff;
+    color: #aa2020;
     font-size: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #331f1f;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
@@ -101,7 +101,7 @@ button:hover {
 }
 
 .toggle-button:hover {
-    background-color: #072dd4;
+    background-color: #ddd;
 }
 
 /* Responsive design */
